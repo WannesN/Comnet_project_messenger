@@ -13,7 +13,21 @@
   <property name="windowTitle">
    <string>Messenging Window</string>
   </property>
-  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="DebugLabel">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>115</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
