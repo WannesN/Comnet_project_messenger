@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
 
     QApplication a(argc, argv);
-    MessengingApp w;
+    MessengingApp w(argv,nullptr);
     w.show();
     return a.exec();
 	//testCommit
